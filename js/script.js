@@ -64,8 +64,8 @@ function paperChoice() {
 
     if (answer2 == "1") {
 
-        image1.src = "../images/paper.png";
-        image2.src = "../images/rock.png";
+        image1.src = "images/paper.png";
+        image2.src = "images/rock.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Rock" + " - you win!";
 
@@ -75,16 +75,16 @@ function paperChoice() {
 
     else if (answer2 == "2") {
 
-        image1.src = "../images/paper.png";
-        image2.src = "../images/paper.png";
+        image1.src = "images/paper.png";
+        image2.src = "images/paper.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Paper" + " - It's a draw!";
     }
 
     else if (answer2 == "3") {
 
-        image1.src = "../images/paper.png";
-        image2.src = "../images/scissors.png";
+        image1.src = "images/paper.png";
+        image2.src = "images/scissors.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Scissors" + " - Computer wins!";
 
@@ -107,8 +107,8 @@ function scissorsChoice() {
 
     if (answer2 == "1") {
 
-        image1.src = "../images/scissors.png";
-        image2.src = "../images/rock.png";
+        image1.src = "images/scissors.png";
+        image2.src = "images/rock.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Rock" + " - Computer wins!";
 
@@ -118,8 +118,8 @@ function scissorsChoice() {
 
     else if (answer2 == "2") {
 
-        image1.src = "../images/scissors.png";
-        image2.src = "../images/paper.png";
+        image1.src = "images/scissors.png";
+        image2.src = "images/paper.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Paper" + " - you win!";
 
@@ -129,8 +129,8 @@ function scissorsChoice() {
 
     else if (answer2 == "3") {
 
-        image1.src = "../images/scissors.png";
-        image2.src = "../images/scissors.png";
+        image1.src = "images/scissors.png";
+        image2.src = "images/scissors.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Scissors" + " - It's a draw!";
     }
