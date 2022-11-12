@@ -21,7 +21,7 @@ function rockChoice() {
 
     if (answer2 == "1") {
 
-        image1.src = "../images/rock.png";
+        image1.src = "../images/therock.png";
         image2.src = "../images/rock.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Rock" + " - It's a draw!";
@@ -29,7 +29,7 @@ function rockChoice() {
 
     else if (answer2 == "2") {
 
-        image1.src = "../images/rock.png";
+        image1.src = "../images/therock.png";
         image2.src = "../images/paper.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Paper" + " - Computer wins!";
@@ -40,7 +40,7 @@ function rockChoice() {
 
     else if (answer2 == "3") {
 
-        image1.src = "../images/rock.png";
+        image1.src = "../images/therock.png";
         image2.src = "../images/scissors.png";
 
         document.querySelector("#resultdisplay").innerHTML = answer1 + " vs Scissors" + " - you win!";
